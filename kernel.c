@@ -2,14 +2,14 @@
 
 int print_progress(unsigned int row,
 					unsigned int col,
-					const char *str,
+					const char *s,
 					int perc,
 					int max_perc);
 
-int strlen(const char *str)
+int strlen(const char *s)
 {
 	int length = 0;
-	while (str[length] != '\0')
+	while (s[length] != '\0')
 	{
 		length++;
 	}
