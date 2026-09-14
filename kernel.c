@@ -1,10 +1,10 @@
 #include "libos.h"
 
 int print_progress(unsigned int row,
-					unsigned int col,
-					const char *s,
-					int perc,
-					int max_perc);
+		   unsigned int col,
+		   const char *message,
+		   unsigned int perc,
+		   unsigned int width);
 
 int strlen(const char *s)
 {
